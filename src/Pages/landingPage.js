@@ -65,6 +65,9 @@ const LandingPage = () => {
                         <SpareParts partImage={""}
                             partName={"Exhausts"}
                             partLink={"#"} />
+                        <SpareParts partImage={""}
+                            partName={"Wiring"}
+                            partLink={"#"} />
                     </div>
 
                     <div className="my-16 grid grid-cols-1 md:grid-cols-2 gap-4">
