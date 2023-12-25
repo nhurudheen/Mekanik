@@ -4,6 +4,7 @@ import carMan from "../images/carMan.png";
 import SpareParts from "../Components/spareParts";
 import CarBrand from "../Components/carBrand";
 import { Link } from "react-router-dom";
+import InputField from "../Components/inputField";
 const LandingPage = () => {
     document.title = "Home Page";
     return (
@@ -17,13 +18,15 @@ const LandingPage = () => {
                             automotive experience. Find expert mechanics, just around the corner.</p>
 
                         <div className="py-3">
-                            <Button btnText={'Discover repair shops'} />
+                            <Button btnText={'Discover repair shops'} 
+                                    btnLink={'/repairShop'}/>
                         </div>
                         <p className="font-montserrat text-sm font-semibold pb-4 pt-2">Or</p>
                         <p className="font-baskerVille text-base font-bold text-mainOrange">Track my car repair status</p>
 
-                        <div className="pt-4 flex gap-x-4">
-                            <input type="text" className="w-1/2 rounded border border-[#FFFFFF8] text-offWhite text-xs px-5 focus:text-black focus:outline-none focus:border-[#00000050]" placeholder="Enter a tracking ID..." />
+                        <div className="pt-4 flex gap-x-3 md:gap-x-4">
+                            <div className="w-1/2"><InputField placeholder={'Enter a tracking ID...'}
+                                                                inputType={'text'}/></div>
                             <Button btnText={'Track Repair'} />
                         </div>
                     </div>
@@ -39,16 +42,16 @@ const LandingPage = () => {
                     </div>
 
                     <div className="grid grid-cols-2 md:grid-cols-5 pt-4 gap-4">
-                        <SpareParts partImage={"https://s3-alpha-sig.figma.com/img/c313/e718/efbe0a2c217f4fa281b8f0811804e4b3?Expires=1703462400&Signature=MxVGe7G2dQf5lwfR0i5a5yiDQ8IWPu1Da7yuk4bZWysygxbfxuLEPA~MHwHX9Ut3fESf9WQRFe-uabMR3bmAvUAAh9PepB21qazWJRYZ9~RqOMNuRcjfnOgVIkj16O56dyMYmDMyDeZJ3n5XUq~HCd5K8JYprcB1rQG9o6kTsSVMkrBJp38xEkuhtvYH8DT0APDO3DpYHoKFovFcFUtl0uU2~RhBojcd7qiZPYkbGqp1b-2TSPbuuo2c0M0cBwXMKPwJchdPreSXhiBZUyuNAjpvI7QC4mbo6eAYh39QInLq0IYhRslcr9hk0pIedGgDJxkMqwT7t3e-kXJ7zGaQXg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"}
+                        <SpareParts partImage={"https://s3-alpha-sig.figma.com/img/c313/e718/efbe0a2c217f4fa281b8f0811804e4b3?Expires=1704672000&Signature=ZGa97glfmIgySOBy49vb3ASnsR4zxOnwC3KZngdvW7PVL4js8Gzh7QuWb1VBEojWQPzwJQye442xr7VUSGzKuyV8m9BrZ~pKW6YJibSSPi1Hx8TadFjx76n9bHWf1UEI6kW~L3cJAbF0VOE2JJ6J5hictjTYiWDzfO6CLwgb7zpXcfWjpSOVFTz1R8F8bIf9mexoX0BiP14ISsAbqtEgBWvzQS8t4ySM~kj1kiiQyNqbotIY1iQ0DL2mKNfDwS7LmBvttvzlIYJTAWYru1fuRdKa82GBwe-CUqTpDTceI54CDzpoG24hMqyQwog~3o~uOtzSyJ~WPt5zdprktZXY-Q__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"}
                             partName={"Engine"}
                             partLink={"#"} />
                         <SpareParts partImage={""}
                             partLink={"#"}
                             partName={"Kick starters"} />
-                        <SpareParts partImage={"https://s3-alpha-sig.figma.com/img/4d75/12e7/fc67d007d6a69c7fb8e5afd19712e389?Expires=1703462400&Signature=SCtgQykpf8Rz~Of8RzQB6YR3dpfiH8hGXerTYLIFDdYacPQ-ayDb0-Wk4TGqf9iuRAtbR7ScL33tSF9xSNv9CpeHKGl8o1jD~4qGuXz1GuUy8znTmGsfB6kuIyx0tWu8QpzC2XhMM9aowGy6GUn7-WBDNWxo1qiRQQ0g0gj2bDKOwIK~0YSfOLc80VNEg8dsH3VZoK8nqHMRdkcic2nNTnLH9nEwy08OAFW16~DnlovgNojBW3MBWqqU3w1z2dUVNmrPavNNbnKWrVXNHqkVg7rvn13EOeo9GXjQc7G8wTs~LL~UF-rw2WqSPS9xcY~yDKe79LNBlM0MlN9uKcYeKA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"}
+                        <SpareParts partImage={"https://s3-alpha-sig.figma.com/img/4d75/12e7/fc67d007d6a69c7fb8e5afd19712e389?Expires=1704672000&Signature=EnNfsiZgBaRReqv943RTya4TG-x50q9AOTXW5tED3PL8Q1TEda9So8SLi-vCR3hQlyXIF1plluxC1X~5s8Ohxyh9hgcApy8jcZZ8MH9RhVLWIdBpztu8usF9EokGa7Ujnpa5QkIdDMG7jcSpqo5O0aE96nIop5vXBQrD9Fx~KyCaoS0ZTtvjZlfLPH~WqI1auD8gzg~-DcIo-hhP-xYLxnAJXo3OA3rGzkU6C37IWY3oYJsL2XIoTCxTS3Q26rkRaOpYWoppYeSQ~fuXBQmoCbpmUoO9xbDjbIQBtqdkFQji91Xfyi1ZvJf0eRZU8BTAOy2N-O8~RVveFaOCXboMew__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"}
                             partName={"Headlights"}
                             partLink={"#"} />
-                        <SpareParts partImage={"https://s3-alpha-sig.figma.com/img/3067/7283/f638f1dfea61ae79b95abb896da417e9?Expires=1703462400&Signature=K93fy-dUBckKjEYoYmLpFGIS6jxWLGpLKd1e1qXsj4Bcs~vIzzKQUmh~0Whe-YsaDuMDtDnhnjPFVO71XevFYhzEcZaC8sh0BlHRidcXVGZSLGxQ1g2~nVLH3Mewk~SlFNYqxd-LT8o~EWUjuwvulGTaOcc9xX2FcpGkNl6oZk5~y4NYWYVmqfc5QrcS2dQCIKAdeoNQTbSTEESCEko3vmjt-VxLEJ4bX-mYoncTu74NTIwup7cBEkS8vIj9tOjP0dIE2-vK08kpi95wbBjHWPFsrhFGg25WKsPWyOdNAG8WQ1-jyYhMcylwQHsV9JVi45A3vY7m-rvg7urH0l4qEg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"}
+                        <SpareParts partImage={"https://s3-alpha-sig.figma.com/img/3067/7283/f638f1dfea61ae79b95abb896da417e9?Expires=1704672000&Signature=Ppv5yASFwxLyzNrFf3as9XL5YvGFJ1L61MRLimh5ht-b0j134ooewYu8Wc4~sXDaFHX9ZjhRvbEG8cGWPZZKlevWY8Y6qCZrPLG1P-yUM54A7rUbmszx4oU7SPSXhj1wlTglLhR-Hd31tRmxNUoTWCJVK3xzPF-2J5ChWoKNTGf97iFcx8-5ENQW7wP0Nom5iw2Y4IMpGDXdjrHjDN8wbzYt7sO8XG8F1kCqYBI9JlNiPW8c89i0wXGYmHFLi8nK7wytQA2dpz8XsQXRhrBWOo-luyAuTqKXw~6qGjuyg49JWPL~fb5BzP-Umw5sV4xnl7B5nw1yluk1M0JYUgb6xw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"}
                             partName={"Mirrors"}
                             partLink={"#"} />
                         <SpareParts partImage={""}
@@ -57,10 +60,10 @@ const LandingPage = () => {
                         <SpareParts partImage={""}
                             partName={"Break Pads"}
                             partLink={"#"} />
-                        <SpareParts partImage={"https://s3-alpha-sig.figma.com/img/9c64/796d/8c990488db1cf4fbb9320a10792be611?Expires=1703462400&Signature=bBOEhH2Wg5C4Jt5mH9lu7rQwI46b89c-M1eK1k0yab1ET4DpKqbYhjpPrDa32lCno0O4~PLg~w5iobj6u0Mw4ysqyUWuFRsDs1CmNj7Wj8D57V-PQ43VqR4eXHpQXMISS2xM~b1vuehk4y7FeLI~GrvLqQ9mIuGfCLVNZtWtNSZD2vIG6k0-sNPO8TbD9OdEb4n5U47iP8CwAj5VCfZcVG7ehpz9A70DXZtg5Ald2uK2xOaOrt-KcUwMWE07i4mujDOocPBL2qupSmpMerP4sHs8vax38dBnIH0RjI-J-gRpMxqiUqw2PgEDjUzqt0zem9Bfw8PSLZr-aSwmFYyv9Q__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"}
+                        <SpareParts partImage={"https://s3-alpha-sig.figma.com/img/9c64/796d/8c990488db1cf4fbb9320a10792be611?Expires=1704672000&Signature=GpW9714MKMZHSWBURXgl-6mcZTvUdDZ8JXKy7IyaItnOt3sEmfRdK3FWClzw9i8pERKC17QKVmfkPE8JFC7xPOVk8UJyMnJ2TBF~8j5Bx3XDYdpHHD9y6jw9Kyh-W-7AwDNiVvQEBgwJMXOSsct4m0wAHcAkM5D1J32YF~7RImlJe40jiIdmmrw8d~8xWZByJIXfeoynBeMD4zFCde-bPt4UgRtYergfg3ipRg9LwWzhTq9GFdCqUwHDGT~XmcQL1SrbQcyjvCZ2l-l01~vUE3BqE2ZPsgNKhNKHmC9pTfiXBKVEsu6Pidnui~4Vfk3w6yILmVOJxwfm3ldkvddBng__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"}
                             partName={"Batteries"}
                             partLink={"#"} />
-                        <SpareParts partImage={"https://s3-alpha-sig.figma.com/img/db17/8e18/918082b75af45fe1c57ffa8e772d91ab?Expires=1703462400&Signature=kZBVXVO49tB5X7GU8KQ3RCDjLlCgoXGAdwJBNihcEe1k~SErDcHl-UmvCfJcfOFVslglnHYZhGyMSaV~NGQLUMGKZX4DJsQLOd6mMdELDXlR6uG8pZXpBOWcUfpuv54i9h9i7IwClSfh1INcBv9kn4-jIJW4~KGwLOTs3KxnrvaPSpu7kVBIUPlGhfDC2NEZfPq3~hY8yL~K7Cqd4i09TuLORmGz-QUAtjm67ltxt7TAa5Xf1Me3sabUoWpM-02HNoaazFENoGfsCzoYfnvDk8XKiIyacjps3wtg70Kw1adoak32kmNzgfqH9q68BbfGbMIC4HqBQiFzrro-Mt9L8A__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"}
+                        <SpareParts partImage={"https://s3-alpha-sig.figma.com/img/db17/8e18/918082b75af45fe1c57ffa8e772d91ab?Expires=1704672000&Signature=FjbX3NUKdromzkBUs7FPgkQZqIp9qYNP1k5pO76vrmVZvvBxZclfCscHitx7HKxe-Rur9bk3THDaWPRGr95pLgbEBI083T3l6TxJwwp1QKV1nJW5g4MgUWyQ5t3P5CD-rgJdZLm7SpRP8naZjsst1VYzwVYQh2AkRifIn1UWrwUCd8RngqHYGN4oegbHbS8ZJpBu1DelvANCJtbv8RKar-Rzy8PJ9s5eq-mLof4-kdm7W2TyKe72yKZezsTvtlxwvnPb0zkaF2SDSCWzMdV8inr2hsSO4cksbMEDieUfjkCUwPZ7ZMCjvdAQ5-K5GmI9UNJQBCbGVNzG2KlGvEWO9A__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"}
                             partName={"Tyres and Rims"} />
                         <SpareParts partImage={""}
                             partName={"Exhausts"}
