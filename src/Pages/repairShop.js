@@ -35,7 +35,7 @@ const RepairShop = () => {
                     </div>
                 </div>
 
-                <div className="grid grid-cols-2 md:grid-cols-5 mt-12 md:mt-16 gap-4">
+                <div className="grid grid-cols-2 md:grid-cols-5 mt-12 md:mt-16 gap-x-4 gap-y-6 mb-20">
                     <WorkShop workshopName={"Rahman Jago's Workshop"}
                              phoneNumber={'0902345678901'} 
                              location={'Ikeja'}
@@ -71,7 +71,7 @@ const RepairShop = () => {
                              totalRating={'900'}
                              specialty={'All Kind of vehicles'}
                              workshopId={'248'}/>
-                             
+
                     <WorkShop workshopName={"Turacreativity Auto Care"}
                              phoneNumber={'08023456789'} 
                              location={'Abeokuta, Nigeria'}
@@ -81,6 +81,50 @@ const RepairShop = () => {
                              specialty={'Toyota, Mercedes, Hyundai, Ford'}
                              workshopId={'249'}/>
                 
+                <WorkShop workshopName={"Asunmo Auto care"}
+                             phoneNumber={'08123908763'} 
+                             location={'Ilorin'}
+                             ratingPercentage={'20'}
+                             address={'No 23, Off Ladokes Street, Ilorin.'}
+                             totalRating={'342'}
+                             specialty={'Toyota, Mercedes, Hyundai, Tesla.'}
+                             workshopId={'245'}/>
+
+                     <WorkShop workshopName={"Marley Mecho."}
+                             phoneNumber={'080000000123'} 
+                             location={'Ladipo, Ikeja'}
+                             ratingPercentage={'100'}
+                             address={'12, Shomorin, Off Shomolu, Ikeja.'}
+                             totalRating={'142'}
+                             specialty={'Toyota, Mercedes, Hyundai'}
+                             workshopId={'246'}/> 
+
+                    <WorkShop workshopName={"Ebuka and Sons"}
+                             phoneNumber={'07089899090'} 
+                             location={'Computer Village, Lagos'}
+                             ratingPercentage={'85'}
+                             address={'No 24, Off Solat Store, Computer Village, Lagos'}
+                             totalRating={'142'}
+                             specialty={'Toyota, Mercedes, Hyundai, Tesla'}
+                             workshopId={'247'}/>
+
+                    <WorkShop workshopName={"Dandy and Sons Wegner Workshop"}
+                             phoneNumber={'08923789012'} 
+                             location={'Berger, Lagos'}
+                             ratingPercentage={'90'}
+                             address={'Berger Bustop, Lagos Ibadan, Express way'}
+                             totalRating={'900'}
+                             specialty={'All Kind of vehicles'}
+                             workshopId={'248'}/>
+                             
+                    <WorkShop workshopName={"Bolumole Ikeja City Workshop"}
+                             phoneNumber={'08023456789'} 
+                             location={'Ikeja, Nigeria'}
+                             ratingPercentage={'89'}
+                             address={'No 3, Yaya Abatan, Off NNPC, Ogba , Ikeja.'}
+                             totalRating={'400'}
+                             specialty={'Toyota, Mercedes, Hyundai, Ford'}
+                             workshopId={'249'}/>
                     
                 </div>
             </div>
