@@ -42,16 +42,16 @@ const LandingPage = () => {
                     </div>
 
                     <div className="grid grid-cols-2 md:grid-cols-5 pt-4 gap-4">
-                        <SpareParts partImage={"https://s3-alpha-sig.figma.com/img/c313/e718/efbe0a2c217f4fa281b8f0811804e4b3?Expires=1704672000&Signature=ZGa97glfmIgySOBy49vb3ASnsR4zxOnwC3KZngdvW7PVL4js8Gzh7QuWb1VBEojWQPzwJQye442xr7VUSGzKuyV8m9BrZ~pKW6YJibSSPi1Hx8TadFjx76n9bHWf1UEI6kW~L3cJAbF0VOE2JJ6J5hictjTYiWDzfO6CLwgb7zpXcfWjpSOVFTz1R8F8bIf9mexoX0BiP14ISsAbqtEgBWvzQS8t4ySM~kj1kiiQyNqbotIY1iQ0DL2mKNfDwS7LmBvttvzlIYJTAWYru1fuRdKa82GBwe-CUqTpDTceI54CDzpoG24hMqyQwog~3o~uOtzSyJ~WPt5zdprktZXY-Q__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"}
+                        <SpareParts partImage={"https://media.hswstatic.com/eyJidWNrZXQiOiJjb250ZW50Lmhzd3N0YXRpYy5jb20iLCJrZXkiOiJnaWZcL2Nhci1lbmdpbmUtbmV3MS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOiIxMjAwIn19fQ=="}
                             partName={"Engine"}
                             partLink={"#"} />
                         <SpareParts partImage={""}
                             partLink={"#"}
                             partName={"Kick starters"} />
-                        <SpareParts partImage={"https://s3-alpha-sig.figma.com/img/4d75/12e7/fc67d007d6a69c7fb8e5afd19712e389?Expires=1704672000&Signature=EnNfsiZgBaRReqv943RTya4TG-x50q9AOTXW5tED3PL8Q1TEda9So8SLi-vCR3hQlyXIF1plluxC1X~5s8Ohxyh9hgcApy8jcZZ8MH9RhVLWIdBpztu8usF9EokGa7Ujnpa5QkIdDMG7jcSpqo5O0aE96nIop5vXBQrD9Fx~KyCaoS0ZTtvjZlfLPH~WqI1auD8gzg~-DcIo-hhP-xYLxnAJXo3OA3rGzkU6C37IWY3oYJsL2XIoTCxTS3Q26rkRaOpYWoppYeSQ~fuXBQmoCbpmUoO9xbDjbIQBtqdkFQji91Xfyi1ZvJf0eRZU8BTAOy2N-O8~RVveFaOCXboMew__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"}
+                        <SpareParts partImage={"https://hips.hearstapps.com/hmg-prod/images/lights-royalty-free-image-1628011888.jpg?crop=0.86778xw:1xh;center,top&resize=1200:*"}
                             partName={"Headlights"}
                             partLink={"#"} />
-                        <SpareParts partImage={"https://s3-alpha-sig.figma.com/img/3067/7283/f638f1dfea61ae79b95abb896da417e9?Expires=1704672000&Signature=Ppv5yASFwxLyzNrFf3as9XL5YvGFJ1L61MRLimh5ht-b0j134ooewYu8Wc4~sXDaFHX9ZjhRvbEG8cGWPZZKlevWY8Y6qCZrPLG1P-yUM54A7rUbmszx4oU7SPSXhj1wlTglLhR-Hd31tRmxNUoTWCJVK3xzPF-2J5ChWoKNTGf97iFcx8-5ENQW7wP0Nom5iw2Y4IMpGDXdjrHjDN8wbzYt7sO8XG8F1kCqYBI9JlNiPW8c89i0wXGYmHFLi8nK7wytQA2dpz8XsQXRhrBWOo-luyAuTqKXw~6qGjuyg49JWPL~fb5BzP-Umw5sV4xnl7B5nw1yluk1M0JYUgb6xw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"}
+                        <SpareParts partImage={"https://s25180.pcdn.co/wp-content/uploads/2016/02/iStock-76744477.jpg"}
                             partName={"Mirrors"}
                             partLink={"#"} />
                         <SpareParts partImage={""}
@@ -60,10 +60,10 @@ const LandingPage = () => {
                         <SpareParts partImage={""}
                             partName={"Break Pads"}
                             partLink={"#"} />
-                        <SpareParts partImage={"https://s3-alpha-sig.figma.com/img/9c64/796d/8c990488db1cf4fbb9320a10792be611?Expires=1704672000&Signature=GpW9714MKMZHSWBURXgl-6mcZTvUdDZ8JXKy7IyaItnOt3sEmfRdK3FWClzw9i8pERKC17QKVmfkPE8JFC7xPOVk8UJyMnJ2TBF~8j5Bx3XDYdpHHD9y6jw9Kyh-W-7AwDNiVvQEBgwJMXOSsct4m0wAHcAkM5D1J32YF~7RImlJe40jiIdmmrw8d~8xWZByJIXfeoynBeMD4zFCde-bPt4UgRtYergfg3ipRg9LwWzhTq9GFdCqUwHDGT~XmcQL1SrbQcyjvCZ2l-l01~vUE3BqE2ZPsgNKhNKHmC9pTfiXBKVEsu6Pidnui~4Vfk3w6yILmVOJxwfm3ldkvddBng__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"}
+                        <SpareParts partImage={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREOEH5HPRVywjLG_6d9G9rJy3aF5fP_oC7MZMrVwHVH1ydGQth8VpUvxWs0NQBy1aLMKg&usqp=CAU"}
                             partName={"Batteries"}
                             partLink={"#"} />
-                        <SpareParts partImage={"https://s3-alpha-sig.figma.com/img/db17/8e18/918082b75af45fe1c57ffa8e772d91ab?Expires=1704672000&Signature=FjbX3NUKdromzkBUs7FPgkQZqIp9qYNP1k5pO76vrmVZvvBxZclfCscHitx7HKxe-Rur9bk3THDaWPRGr95pLgbEBI083T3l6TxJwwp1QKV1nJW5g4MgUWyQ5t3P5CD-rgJdZLm7SpRP8naZjsst1VYzwVYQh2AkRifIn1UWrwUCd8RngqHYGN4oegbHbS8ZJpBu1DelvANCJtbv8RKar-Rzy8PJ9s5eq-mLof4-kdm7W2TyKe72yKZezsTvtlxwvnPb0zkaF2SDSCWzMdV8inr2hsSO4cksbMEDieUfjkCUwPZ7ZMCjvdAQ5-K5GmI9UNJQBCbGVNzG2KlGvEWO9A__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"}
+                        <SpareParts partImage={"https://www.qualitytire.com/wp-content/uploads/2017/02/Car-Wheels-1.jpg"}
                             partName={"Tyres and Rims"} />
                         <SpareParts partImage={""}
                             partName={"Exhausts"}
